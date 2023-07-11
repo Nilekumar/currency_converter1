@@ -1,0 +1,12 @@
+>>how to put a value inside the input box
+put value=1 this will show the value inside the input default value
+
+# we can use any div as a new display flex box
+
+#to access all the element inside the id using js using [0].children
+
+#TO MAKE A DROP DOWN OPTION USE SELECT TAG AND INSIDE USE OPTION
+
+# we can select one option from the list just by typing selected inside the option tag
+
+# when you are adding a event listener make sure you are adding the function properly

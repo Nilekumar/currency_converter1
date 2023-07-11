@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div id="outerDiv">
+        <div id="heading1">
+          <h3>Currency Coverter</h3>
+        </div>
+        <div id="mainDiv">
+          <h1>Exchange Rate Today</h1>
+          <div id="threeColumn" >
+            <div id="inputBox">
+              <p>Amount</p>
+              <input type="number" value="1" />
+            </div>
+            <div class="firstImg">
+              <!-- <img src="images/united-states.png" alt=""> -->
+            </div>
+            <div>
+              <P>From</P>
+            <select name="" id="from1">
+              <option value="USD" selected>USA</option>
+              <option value="NPR">NEPAL</option>
+              <option value="CAD" >CANADA</option>
+              <option value="INR">INDIA</option>
+            </select>
+            </div>
+            <div class="crossImg">
+              <img src="./images/arrows-repeat.png"  alt="">
+            </div>
+            <div class="secondImg">
+              <!-- <img src="images/flag.png" alt=""> -->
+            </div>
+            <div>
+              <p>To</p>
+              
+              <select name="" id="from2">
+                
+                   <option value="INR" selected> INDIA</option>
+                  <option value="USA"> USA</option>
+                  <option value="JPY"> JAPAN</option>
+                  <option value="NPR">NEPAL</option>
+                  <option value="CAD" >CANADA</option>
+
+                </select>
+              
+            </div>
+          </div>
+          <div class="outPutPara" id="outPut">
+            <p></p>
+          </div>
+          <div id="lastDiv">
+            <p>
+              Our converter applies the mid-market rate. It is solely for
+              informational purposes. The Rate might differ while transferring
+              money.
+            </p>
+            <button type="submit">Convert &#62</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
